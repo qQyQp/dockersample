@@ -2,7 +2,7 @@
 FROM centos:7
 
 # 作成者情報
-MAINTAINER 0.1 csignwkr@gmail.com
+MAINTAINER 0.2 csignwkr@gmail.com
 
 # Apache httpd のインストール
 RUN ["yum" , "-y" , "install" , "httpd" ]
